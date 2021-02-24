@@ -1,0 +1,351 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+3DaytoHell
+</name>
+</assembly>
+<members>
+<member name="T:_3DaytoHell.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:_3DaytoHell.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:_3DaytoHell.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSet.AdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSet.AdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSet.AdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSetTableAdapters.AdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(_3DaytoHell.AdminDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(_3DaytoHell.AdminDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(_3DaytoHell.AdminDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.UpdateAll(_3DaytoHell.AdminDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:_3DaytoHell.AdminDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet.BookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet.BookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet.BookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSetTableAdapters.BookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(_3DaytoHell.BookDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(_3DaytoHell.BookDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(_3DaytoHell.BookDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.UpdateAll(_3DaytoHell.BookDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1.BookDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1.BookRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1.BookRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1TableAdapters.BookTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(_3DaytoHell.BookDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(_3DaytoHell.BookDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(_3DaytoHell.BookDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.UpdateAll(_3DaytoHell.BookDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:_3DaytoHell.BookDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet.MemberDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet.MemberRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet.MemberRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSetTableAdapters.MemberTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(_3DaytoHell.MemberDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(_3DaytoHell.MemberDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(_3DaytoHell.MemberDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.UpdateAll(_3DaytoHell.MemberDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1.MemberDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1.MemberRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1.MemberRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1TableAdapters.MemberTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(_3DaytoHell.MemberDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(_3DaytoHell.MemberDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(_3DaytoHell.MemberDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.UpdateAll(_3DaytoHell.MemberDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:_3DaytoHell.MemberDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
